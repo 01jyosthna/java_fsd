@@ -1,0 +1,12 @@
+public class TypeCasting {
+	public static void main (String args[])
+	{
+		int a=10;
+	float c=a;//implicit typecasting
+		System.out.println(c);
+	    float d=10.0f;
+		int e=(int)d;//explicit typecasting
+		System.out.println(e);
+	
+	}
+}
